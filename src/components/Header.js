@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/header.css'
-// import Search from './Admin/Search.js';
+import '../styles/header.css';
 
 class Header extends Component {
   constructor(props) {
