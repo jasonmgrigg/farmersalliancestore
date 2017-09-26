@@ -1,0 +1,92 @@
+
+  .fullHeader {
+    background-image: url('../backgrounds/vintage-concrete.png');
+    padding-top: 1vw;
+    width: 100vw;
+    border-bottom: 3px solid black;
+  }
+
+  .pageLogo {
+    display: inline;
+  }
+
+  .headerTitle {
+    white-space: nowrap;
+    font-family: 'Monoton', cursive;
+    font-size: 3.5vw;
+    color: #C81010;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #C81010;
+  }
+
+  .headerSubtitle {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.6vw;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    width: 12vw;
+  }
+
+  .headerSubtitle:hover {
+    color: black;
+  }
+
+  .topHeaderContainer {
+    margin-top: 1vw;
+    margin-left: 1vw;
+    width: 15vw;
+  }
+
+  .headerInfo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8vw;
+  }
+
+  .navigation li {
+    text-align: center;
+    list-style-type: none;
+  }
+
+
+  .contributeList {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    font-size: 1.4vw;
+  }
+
+  .contributorsListItem {
+    color: #C3C3C3;
+  }
+
+  .contributorsListItem:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .navList p {
+    text-align: center;
+  }
+
+  .allNavigationColumn {
+    margin-top: 10px;
+  }
+
+  .showMore {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    font-size: 1.6vw;
+    letter-spacing: .15vw;
+    color: white;
+    text-shadow: 1px 1px black;
+  }
+
+  .showMore:hover {
+    color: black;
+  }
