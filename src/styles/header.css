@@ -1,8 +1,8 @@
 
   .fullHeader {
     background-image: url('../backgrounds/vintage-concrete.png');
-    padding-top: 1vw;
     width: 100vw;
+    height: 7.5vw;
     border-bottom: 1px solid black;
     display: flex;
     flex-direction: row;
@@ -15,8 +15,9 @@
   .headerTitle {
     white-space: nowrap;
     font-family: 'Fredericka the Great', cursive;
-    font-size: 3.5vw;
+    font-size: 3vw;
     color: #C81010;
+    margin-top: 1.5vw;
   }
 
   a:hover {
@@ -30,7 +31,8 @@
     color: white;
     font-weight: bold;
     text-shadow: 1px 1px black;
-    width: 12vw;
+    width: 11vw;
+    margin-left: 15vw;
   }
 
   .headerSubtitle:hover {
@@ -41,7 +43,8 @@
   .headerInfo {
     display: flex;
     flex-direction: row;
-    margin-left: 8vw;
+    margin-left: 19vw;
+    margin-top: 1vw;
   }
 
   .navigation li {

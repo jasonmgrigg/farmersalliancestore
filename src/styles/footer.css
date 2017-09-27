@@ -1,11 +1,8 @@
-
   .fullFooter {
     background-image: url('../backgrounds/vintage-concrete.png');
-    padding-top: 1vw;
     width: 100vw;
+    height: 7.5vw;
     border-top: 1px solid black;
-    display: flex;
-    flex-direction: row;
   }
 
   .developerName {
@@ -14,6 +11,7 @@
     font-size: .8vw;
     color: #C81010;
     margin-left: 88vw;
+    margin-top: 1vw;
   }
 
   .developerCompany {

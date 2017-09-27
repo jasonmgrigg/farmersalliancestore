@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../styles/header.css'
 import PictureCarousel from './PictureCarousel.js'
 
 class Body extends Component {
