@@ -8,16 +8,13 @@
     flex-direction: row;
   }
 
-  .pageLogo {
-    display: inline;
-  }
-
   .headerTitle {
     white-space: nowrap;
     font-family: 'Fredericka the Great', cursive;
     font-size: 3vw;
     color: #C81010;
     margin-top: 1.5vw;
+    margin-left: 1vw;
   }
 
   a:hover {
@@ -31,60 +28,16 @@
     color: white;
     font-weight: bold;
     text-shadow: 1px 1px black;
-    width: 11vw;
-    margin-left: 15vw;
+    margin-left: 2vw;
   }
 
   .headerSubtitle:hover {
     color: black;
   }
 
-
   .headerInfo {
     display: flex;
     flex-direction: row;
-    margin-left: 19vw;
+    margin-left: 20vw;
     margin-top: 1vw;
-  }
-
-  .navigation li {
-    text-align: center;
-    list-style-type: none;
-  }
-
-  .contributeList {
-    margin-bottom: 1vw;
-    font-family: 'Fredericka the Great', cursive;
-    font-weight: bold;
-    font-size: 1.4vw;
-  }
-
-  .contributorsListItem {
-    color: #C3C3C3;
-  }
-
-  .contributorsListItem:hover {
-    color: white;
-    text-decoration: underline;
-  }
-
-  .navList p {
-    text-align: center;
-  }
-
-  .allNavigationColumn {
-    margin-top: 10px;
-  }
-
-  .showMore {
-    font-family: 'Fredericka the Great', cursive;
-    font-weight: bold;
-    font-size: 1.6vw;
-    letter-spacing: .15vw;
-    color: white;
-    text-shadow: 1px 1px black;
-  }
-
-  .showMore:hover {
-    color: black;
   }
