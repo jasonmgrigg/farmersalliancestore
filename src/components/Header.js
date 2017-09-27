@@ -8,25 +8,15 @@ class Header extends Component {
     this.showMore = this.showMore.bind(this, true);
 
     this.state = {
-      username: '',
-      password: '',
       contributors: [
         {
-          name: 'Brittany Arsi',
-          link: ''
+          name: '134 South Chatham Avenue',
+          information: 'Siler City, NC  27344'
         },
         {
-          name: 'Robert Garmhausen',
-          link: ''
+          name: ' ',
+          information: '919-742-3020'
         },
-        {
-          name: 'Jason Grigg',
-          link: ''
-        },
-        {
-          name: 'Dylan Stump',
-          link: ''
-        }
       ],
       rowsToDisplay: 0,
       expanded: false,
@@ -50,7 +40,7 @@ class Header extends Component {
   render() {
     return (
       <div className="fullHeader">
-        <a className="headerTitle">Farmers Alliance Store</a>
+        <a className="headerTitle">FARMERS ALLIANCE STORE</a>
         <div className="headerInfo">
 
             <h3 className="headerSubtitle">Contact Us</h3>
@@ -64,9 +54,10 @@ class Header extends Component {
                     <li key={i}>
                       <a
                         className="contributorsListItem"
-                        href={contributors.link}
                       >
                         {contributors.name}
+                        <br />
+                        {contributors.information}
                       </a>
                     </li>
                   )}
