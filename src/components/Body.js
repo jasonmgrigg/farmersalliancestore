@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/header.css'
-import Carousel from './Carousel.js'
+import PictureCarousel from './PictureCarousel.js'
 
 class Body extends Component {
   constructor(props) {
@@ -15,7 +15,7 @@ class Body extends Component {
   render() {
     return (
       <div>
-        <Carousel />
+        <PictureCarousel />
       </div>
     )
   }
